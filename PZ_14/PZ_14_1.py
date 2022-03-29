@@ -12,5 +12,5 @@ if "«Время" in q:
     q.remove("«Время")
 if "«Эпоха" in q:
     q.remove("«Эпоха")
+print(set(q))
 print(len(set(q)))
-
