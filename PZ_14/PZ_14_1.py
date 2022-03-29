@@ -13,4 +13,5 @@ if "«Время" in q:
 if "«Эпоха" in q:
     q.remove("«Эпоха")
 print(set(q))
+print('Количество произведений:')
 print(len(set(q)))
